@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--BOOTSTRAP-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!--FONT-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Sofia&display=swap" rel="stylesheet">
+
+	<title>Q2 Exercise 2</title>
+
+	<!--CSS-->
+	<style type="text/css">
+		h1,h2,h3,h4{
+			font-family:Montserrat;
+			padding: 10px;
+		}
+		.container{
+			padding: 25px;
+		}
+		img {
+			height: 200px;
+			width: 200px;
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body class="bg-dark">
+	<div class="container">
+	<h1 align="center" class="text-light">Bootstrap Tables</h1>
+		<table class="table table-bordered table-hover table-secondary">
+			<tr>
+				<th>Company Logo</th>
+				<th>Company Name</th>
+				<th>Founded On</th>
+				<th>Founded By</th>
+			</tr>
+			<tr>
+				<td><img src="hyundai.png" class="img-thumbnail">
+				<th>Hyundai</th>
+				<th>December 29 1967</th>
+				<th>Chung Ju-yung</th>
+			</tr>
+			<tr>
+				<td><img src="toyota.png" class="img-thumbnail">
+				<th>Toyota</th>
+				<th>August 28, 1937</th>
+				<th>Kiichiro Toyoda</th>
+			</tr>
+			<tr>
+				<td><img src="mitsubishi.png" class="img-thumbnail">
+				<th>Mitsubishi</th>
+				<th>April 22 1970</th>
+				<th>Yatarō Iwasaki</th>
+			</tr>
+			<tr>
+				<td><img src="nissan.png" class="img-thumbnail">
+				<th>Nissan</th>
+				<th>December 26 1933</th>
+				<th>Masujiro Hashimoto</th>
+			</tr>
+		</table>
+		<h1 class="bg-light text-dark text-center">Bootstrap Form</h1>
+		<div class="container bg-secondary text-light">
+		<form class="form-group">
+			Enter Firstname: <input type="text" name="firtname" class="form-control" placeholder="Type your firstname"><br>
+			Enter Lastname: <input type="text" name="lastname" class="form-control" placeholder="Type your lastname"><br>
+			<select class="form-control">
+				<option>Hyundai</option>
+				<option>Toyota</option>
+				<option>Mitsubishi</option>
+				<option>Nissan</option>
+			</select>
+			<br>
+			Date Purchased: <input type="date" name="enrolled" class="form-control">
+			<br>
+			<input type="file" name="file" class="btn"><br><br>
+			<input type="submit" name="ADD NAME" class="btn btn-success btn-block">
+			<input type="reset" value="CANCEL" class="btn btn-danger btn-block">
+
+		</form>
+		<h6> References:</h6>
+		<a href="https://automobile.fandom.com/wiki/Autopedia">Automobile Fandom</a>
+		</div>
+
+		<footer class="text-light text-center">
+			<small>&copy;HYChoi 2022-23</small>
+		</footer>
+	</div>
+</body>
+</html>
